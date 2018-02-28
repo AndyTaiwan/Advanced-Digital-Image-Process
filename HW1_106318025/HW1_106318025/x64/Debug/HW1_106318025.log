@@ -1,0 +1,39 @@
+﻿已經開始建置於 2018/2/24 下午 01:17:15。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\HW1_106318025\HW1_106318025.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt HW1_1.2_b.cpp HW1_1.3_a.cpp
+         HW1_1.3_a.cpp
+         HW1_1.2_b.cpp
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\x64\Debug\HW1_106318025.exe" /INCREMENTAL /NOLOGO opencv_aruco331.lib opencv_bgsegm331.lib opencv_bioinspired331.lib opencv_calib3d331.lib opencv_ccalib331.lib opencv_core331.lib opencv_datasets331.lib opencv_dnn331.lib opencv_dpm331.lib opencv_face331.lib opencv_features2d331.lib opencv_flann331.lib opencv_fuzzy331.lib opencv_highgui331.lib opencv_img_hash331.lib opencv_imgcodecs331.lib opencv_imgproc331.lib opencv_line_descriptor331.lib opencv_ml331.lib opencv_objdetect331.lib opencv_optflow331.lib opencv_phase_unwrapping331.lib opencv_photo331.lib opencv_plot331.lib opencv_reg331.lib opencv_rgbd331.lib opencv_saliency331.lib opencv_shape331.lib opencv_stereo331.lib opencv_stitching331.lib opencv_structured_light331.lib opencv_superres331.lib opencv_surface_matching331.lib opencv_text331.lib opencv_tracking331.lib opencv_video331.lib opencv_videoio331.lib opencv_videostab331.lib opencv_xfeatures2d331.lib opencv_ximgproc331.lib opencv_xobjdetect331.lib opencv_xphoto331.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\x64\Debug\HW1_106318025.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\x64\Debug\HW1_106318025.lib" /MACHINE:X64 x64\Debug\HW1_1.2_b.obj
+         x64\Debug\HW1_1.3_a.obj
+     1>HW1_1.3_a.obj : error LNK2005: main 已在 HW1_1.2_b.obj 中定義過了
+     1>LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>HW1_1.2_b.obj : error LNK2019: 無法解析的外部符號 _free_dbg 在函式 "private: void __cdecl std::_Yarn<char>::_Tidy(void)" (?_Tidy@?$_Yarn@D@std@@AEAAXXZ) 中被參考
+     1>HW1_1.3_a.obj : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 無法解析的外部符號 _free_dbg
+     1>HW1_1.3_a.obj : error LNK2019: 無法解析的外部符號 "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@debug_build_guard@1@@Z) 在函式 main 中被參考
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: 無法解析的外部符號 _CrtDbgReportW 在函式 "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPEB_W0I@Z) 中被參考
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 無法解析的外部符號 _CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 無法解析的外部符號 _CrtDbgReportW
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: 無法解析的外部符號 _CrtDbgReportW
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: 無法解析的外部符號 _calloc_dbg 在函式 _Getctype 中被參考
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: 無法解析的外部符號 _malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 無法解析的外部符號 _malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: 無法解析的外部符號 _malloc_dbg 在函式 "public: class std::_Yarn<char> & __cdecl std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z) 中被參考
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: 無法解析的外部符號 _malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: 無法解析的外部符號 _malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: 無法解析的外部符號 _malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: 無法解析的外部符號 _realloc_dbg 在函式 "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned __int64)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z) 中被參考
+     1>C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\x64\Debug\HW1_106318025.exe : fatal error LNK1120: 6 個無法解析的外部符號
+     1>專案 "C:\Users\Andy cho\NTUT VPILab\NTUT_106_1\Advanced Digital Image Process\Homework\HW1_106318025\HW1_106318025\HW1_106318025.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:04.01
