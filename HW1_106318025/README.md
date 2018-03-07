@@ -1,15 +1,20 @@
 # *What's in HW1?*
 ### I.  RAW image file input/output
+
 #### a. Display *lena256.raw*
-![lena256](https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/lena256.png "lena256.png")
+<img src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/lena256.png" alt="lena256" align=center />
+
 #### b. Rotate *lena256.raw*
-![lena256_rotate](https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/rotate.png "rotate.png")
+<img src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/rotate.png" alt="lena256_rotate" align=center />
+
 #### c. Split *lena256.raw* into 16 square patches of same size, and randomly swap them to output a new image
-![lena256_split](https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/randim.png "randim.png")
+<img src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/randim.png" alt="lena256_split" align=center />
+
 #### b. Brightness *lena256.raw*
-![lena256_brightness](https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/brightness.png "brightness.png")
+<img src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/brightness.png" alt="lena256_brightness" align=center />
+
 ### II. PNG image file input/output
-  #### a. Draw graph and student ID on *lena256.raw*, and save as png format
-  <img style="vertical-align:middle;" src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/drawing%20graph.png"/>
-  
+  #### a. Draw graph and student ID on *lena512.raw*, and save as png format
+  <img src="https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/drawing%20graph.png" alt="lena512_drawing graph" align=center />
+
 ---
