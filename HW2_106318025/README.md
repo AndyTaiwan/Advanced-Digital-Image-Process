@@ -50,3 +50,5 @@ Find out the solution from A(35, 89) to B(235, 187) by using D4 and D8 distance 
 ![D8_distance](https://github.com/AndyTaiwan/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/D8_distance.PNG)
 
 ---
+
+![What's in HW2](https://github.com/AndyTaiwan/Advanced-Digital-Image-Process/blob/master/HW2_106318025/ADIP_HW2.jpg)
