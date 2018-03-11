@@ -23,3 +23,7 @@
   ![lena512_drawing graph](https://github.com/Cho1995/Advanced-Digital-Image-Process/blob/master/Markdown%20Photos/drawing%20graph.png)
 
 ---
+
+![What's in HW1](https://github.com/AndyTaiwan/Advanced-Digital-Image-Process/blob/master/HW1_106318025/ADIP_HW1_1.jpg)
+![What's in HW1](https://github.com/AndyTaiwan/Advanced-Digital-Image-Process/blob/master/HW1_106318025/ADIP_HW1_2.jpg)
+
